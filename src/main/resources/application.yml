@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-boot-logging
+
+logging:
+  file: ./logs/spring-boot-logging.log
+  level:
+    com.dragon.study.spring.boot: TRACE
+    root: TRACE
+datasource:
+        driver-class-name: oracle.jdbc.OracleDriver
+        url: jdbc:oracle:thin:@10.15.42.37:1521:iap
+        username: audit30testa
+        password: audit30testa#

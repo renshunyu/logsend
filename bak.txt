@@ -1,0 +1,9 @@
+  datasource:
+        driver-class-name: oracle.jdbc.OracleDriver
+        url: jdbc:oracle:thin:@10.15.42.37:1521:iap
+        username: audit30testa
+        password: audit30testa#
+  jpa:
+    hibernate:
+       ddl-auto: update
+       show-sql: true
